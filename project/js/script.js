@@ -49,6 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
     checkbox = addForm.querySelector('[type="checkbox"]');
 
   addForm.addEventListener("submit", (event) => {
+    console.log(event)
     event.preventDefault();
 
     let newFilm = addInput.value;
